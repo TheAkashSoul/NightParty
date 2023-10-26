@@ -1,0 +1,255 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: rgba(0, 0, 0, 1);
+    /* background-color: rgba(0, 0, 0, 1);
+    backdrop-filter: blur(10px); */
+    /* background: linear-gradient(45deg, #8e44ad, #000); */
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(2px);
+    z-index: 1;
+}
+
+header h1{
+    padding-left: 80px;
+    line-height: 35px;
+    text-align: start;
+    
+}
+
+.a-home{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header h1 span {
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    list-style-type: none;
+    padding-right: 70px;
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 80px;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+#home {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    
+    
+}
+
+.home_page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 200px; */
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 80vh;
+    padding-top: 200px;
+}
+
+.home_text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+
+.logo_home{
+    height: 4em;
+    width: 4em;
+}
+.home_welcome{
+    font-size: 30px;
+    text-align: start;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.join {
+    font-size: 150px;
+    line-height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home_ptag {
+    font-size: 20px;
+    margin: 20px 0px;
+    line-height: 35px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.pubGirl {
+    height: 900px;
+    margin-left: 200px;
+    margin-top: 200px;
+    
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+   
+}
+
+.btn-git {
+    font-size: 30px;
+    /* height: auto;
+    width: auto; */
+    background-color: #B32BD6;
+    padding: 30px 40px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 50px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.soc-att{
+    text-decoration: none;
+}
+
+.home-secto {
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+.home-below {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    text-align: center;
+    margin-top: 150px;
+}
+.b-hed {
+    color: #B32BD6;
+    font-size: 30px;
+    margin-top: 50px;
+    /* padding-top: 300px; */
+    padding-bottom: 40px;
+
+}
+
+
+.b-para{
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+
+
+.btn-git-2 {
+    font-size: 30px;
+    /* height: auto;
+    width: auto; */
+    width: 300px;
+    background-color: transparent;
+    padding: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    border: 2px solid white;
+    margin-bottom: 100px;
+    margin-left: 36%;
+}
+
+#about {
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    
+}
+
+#event {
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+#gallery {
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#reservation{
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+
+#news{
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+footer{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+
+}
